@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="data_visualization_gui.py" />
+    <Compile Include="dynamic.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="interactive.py">
       <SubType>Code</SubType>
     </Compile>
