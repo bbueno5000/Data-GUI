@@ -23,6 +23,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="data_visualization_gui.py" />
+    <Compile Include="interactive.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="intro.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|data_gui_env" />
