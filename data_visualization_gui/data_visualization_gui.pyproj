@@ -35,6 +35,9 @@
     <Compile Include="src\live_graphs.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\sentiment_analysis.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\vehicle_sensor.py">
       <SubType>Code</SubType>
     </Compile>
@@ -43,9 +46,12 @@
     <InterpreterReference Include="CondaEnv|CondaEnv|data_gui_env" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\Negative.txt" />
+    <Content Include="data\Positive.txt" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="data\" />
     <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
