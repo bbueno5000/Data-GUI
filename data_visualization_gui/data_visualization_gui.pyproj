@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9e7eb293-a56b-4b02-a021-6373c4daed2f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>data_visualization_gui.py</StartupFile>
+    <StartupFile>src\data_visualization_gui.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,14 +22,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="data_visualization_gui.py" />
-    <Compile Include="dynamic.py">
+    <Compile Include="src\data_visualization_gui.py" />
+    <Compile Include="src\dynamic.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="interactive.py">
+    <Compile Include="src\interactive.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="intro.py">
+    <Compile Include="src\intro.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\live_graphs.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -38,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

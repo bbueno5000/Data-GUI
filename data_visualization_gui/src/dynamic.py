@@ -14,7 +14,7 @@ if __name__ == '__main__':
     stock = 'GOOGL'
     start = datetime.datetime(2015, 1, 1)
     end = datetime.datetime(2018, 2, 8)
-    df = web.DataReader(stock, 'morningstar', start, end)
+    df = web.DataReader(stock, 'google', start, end)
     df.reset_index(inplace=True)
     df.set_index("Date", inplace=True)
     df = df.drop("Symbol", axis=1)
@@ -30,7 +30,7 @@ if __name__ == '__main__':
         """
         start = datetime.datetime(2015, 1, 1)
         end = datetime.datetime.now()
-        df = web.DataReader(input_data, 'morningstar', start, end)
+        df = web.DataReader(input_data, 'google', start, end)
         df.reset_index(inplace=True)
         df.set_index("Date", inplace=True)
         df = df.drop("Symbol", axis=1)
