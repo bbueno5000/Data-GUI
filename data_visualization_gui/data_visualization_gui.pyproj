@@ -38,6 +38,9 @@
     <Compile Include="src\sentiment_analysis.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\streaming.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\vehicle_sensor.py">
       <SubType>Code</SubType>
     </Compile>
