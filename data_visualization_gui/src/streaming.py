@@ -2,6 +2,7 @@
 Streaming Tweets and Sentiment - Data Visualization GUIs with Dash and Python p.7
 """
 import json
+import pandas
 import sqlite3
 import tweepy
 import unidecode
