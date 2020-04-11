@@ -35,6 +35,9 @@
     <Compile Include="src\live_graphs.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\live_twitter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\reading.py">
       <SubType>Code</SubType>
     </Compile>
