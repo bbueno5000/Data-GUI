@@ -1,4 +1,4 @@
-# Data Visualization GUI
+# Data GUI
 
 One Paragraph of project description goes here
 
